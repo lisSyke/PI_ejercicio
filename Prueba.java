@@ -22,10 +22,10 @@ public class Prueba {
        BigDecimal pi= new BigDecimal(Math.PI); //Convertimos PI en un BigDecmial
        BigDecimal piRedon= pi.setScale(i, RoundingMode.UP); //piRedon= Pi redondeado
        //Va a tomar el entero y lo va a redondear el número de veces que diga "i"
+       System.out.println("~~~~~~~~ EL NÚMERO ES ~~~~~~~~");
        
        if (i>20||i<0){
-          System.out.println("~~~~~~~~ EL NÚMERO ES ~~~~~~~~");
-          System.out.println("El número no cumplen el límte propuesto");
+       System.out.println("El número no cumple el límte propuesto");
        }else{
            System.out.println("El número es"+"\n"+piRedon);
        }
